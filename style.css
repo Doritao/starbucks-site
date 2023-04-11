@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 6rem;
+    border-bottom: solid 1px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .parte-esquerda-cabecario {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 1.5rem;
+}
+
+header .parte-direita-cabecario {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    position: relative;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+header .img-cabecario-logo {
+    width: 3.18rem;
+    height: 3.18rem;
+    
+    
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+header nav ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    color: rgba(0,0,0,.87); 
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    
+}
+header nav ul {
+    list-style: none
+}
+
+header .img-cabecario-historias-starbucks {
+    width: 7.5rem;
+    height: 2.95rem;
+}
+
+
+header .parte-direita-cabecario span {
+    font-size: 0.99rem;
+    font-weight: bold
+}
+
+
+header .parte-direita-cabecario .botoa-entrar {
+    border-radius: 50px;
+    padding: 7px 13px;
+    font-weight: 500;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+}
+
+header .parte-direita-cabecario .botao-Participe-agora {
+    border-radius: 3.12rem;
+    cursor: pointer;
+    font-weight: bold;
+    padding: .43rem 1rem;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.link-encontre-uma-loja {
+    display: flex;
+    color: black;
+    
+}
+
+
+.encontra-uma-loja {
+    margin-left: 1rem;
+}
+
+
+.wrapper {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-superior  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90rem;
+    /* height: 140rem; */
+    margin: 0px auto;
+    background-color: white
+}
+
+
+.container-superior {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.container-img-banner-superior {
+    position: relative;
+}
+.botoes-laterais-parte-superior {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.botoes-laterais-banner-superior {
+    border: none;
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgb(0 0 0 / 24%), 0 8px 12px rgb(0 0 0 / 14%);
+}
+
+.botoes-laterais-banner-superior:hover {
+    background-color: rgb(230, 224, 224);
+    /* transform: scale(5%,5%);
+    transition: transform 1s; */
+    transform: translate(5%, 5%);
+    transition: .2s;
+}
+
+
+.caixa-botoezinhos-parte-inferior {
+    display: flex;
+    position: relative;
+    border: 1px solid rgb(255, 16, 16);
+    justify-content: center;
+    gap: 6px;
+    /* background-color: black; */
+   
+    width: 5%;
+    /* height: 2%; */
+}
+
+
+.caixa-botoezinhos-parte-inferior .pequeno-botao {
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    border: none;
+    width: 10.50px;
+    height: 10.50px;
+    cursor: pointer;
+}
+
+.caixa-botoezinhos-parte-inferior .pequeno-botao:hover {
+    background-color: black;
+    width: 12.50px;
+    height: 12.50px;
+}
+
+.wrapper .container-superior .container-img-banner-superior .banner-superior  {
+    
+    width: 100%;
+    
+}
+
+.container-mid-top {
+    display: flex;
+    width: 90rem;
+    height: 8rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #d4e9e2;
+    padding: 100px 0;
+}
+
+.artigo-container-mid-top{
+    margin: 0 auto;
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    color: #1e3932;
+    line-height: 1.75;
+    margin-bottom: 10px;
+}
+
+.botao-saiba-mais-artigo-mid-top {
+    background: none;
+    border-width: 1px;
+    border-radius: 50px;
+    border-style: solid;
+    box-shadow: none;
+    line-height: 1.2;
+    margin-top: 16px;
+    padding: 7px 18px;
+    transition: all .2s ease;
+
+}
+
+.botao-saiba-mais-artigo-mid-top:hover {
+
+}
+
+
+.rodape {
+
+}
