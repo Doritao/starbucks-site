@@ -152,7 +152,7 @@ header .parte-direita-cabecario .botao-Participe-agora {
     position: absolute;
     justify-content: space-between;
     width: 100%;
-    height: 100%;
+    height: calc(100% - 20%);
     top: 0;
     align-items: center;
     padding: 0 1rem;
@@ -202,7 +202,7 @@ header .parte-direita-cabecario .botao-Participe-agora {
     cursor: pointer;
 }
 
-.caixa-botoezinhos-parte-inferior .pequeno-botao:hover {
+.pequeno-botao:hover {
     background-color: black;
     width: 12.50px;
     height: 12.50px;
