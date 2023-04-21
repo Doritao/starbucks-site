@@ -13,33 +13,75 @@ body {
     height: 100vh;
 }
 
-.cabecario-principal {
+header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 20px;
     width: 100%;
     height: 6rem;
     border: solid 1px black;
 }
 
-.cabecario-principal .logo-starbucks-superior-header {
+.logo-starbucks-superior-header {
     width: 52px;
     height: 52px;
-    margin-left: 1.5rem;
-
 }
 
 .caixa-menu-cabecario {
     display: flex;
-    flex-direction: row;
-    margin-left: 1.2rem;
-    width: 25%;
-    justify-content: space-evenly;
-    
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 1.3rem;
+   
 }
+.caixa-menu-cabecario ul {
 
+    padding-right: 12px;
+  }
 .caixa-menu-cabecario a {
     display: flex;
     text-decoration: none;
     color: black;
     font-size: 13pt;
+}
+
+
+.caixa-cabecario-direita {
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+    width: 650px;
+}
+.caixa-cabecario-direita a {
+
+}
+.caixa-cabecario-direita button {
+    width: 20px;
+    height: 20px;
+}
+
+.img-historias-star-bucks {
+    width: 120px;
+
+}
+
+.caixa-cabecario-direita .div-encontre-uma-loja-cabecario {
+    display: flex;
+    align-items: center;
+}
+
+.caixa-cabecario-direita .div-encontre-uma-loja-cabecario p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-left: 12px;
+}
+
+.botao-entrar-cabecario {
+    width: 200px;
+}
+
+.botao-participe-agora-cabecario {
+
 }
