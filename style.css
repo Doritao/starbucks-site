@@ -369,10 +369,15 @@ footer {
 
 .container-footer {
   display: flex;
-  width: 31px;
+  width: auto;
   justify-content: space-between;
   align-items: center;
   gap: 5px;
+}
+.container-footer {
+  border: 1px solid black;
+  margin-top: 2rem;
+  
 }
 
 
